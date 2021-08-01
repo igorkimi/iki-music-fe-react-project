@@ -1,0 +1,14 @@
+.container-concact {
+  height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container-concact a img{
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  margin: 20px;
+}

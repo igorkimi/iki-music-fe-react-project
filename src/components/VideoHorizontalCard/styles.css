@@ -1,0 +1,30 @@
+.video-horizontal-card {
+  display: flex;
+  width: 70%;
+  border: #420606 solid 0px;
+  margin: 10px;
+  padding: 20px 30px;
+  transform: skew(-10deg);
+  background-color: #851b1b;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  color: #fff;
+}
+.video-horizontal-card div{
+  transform: skew(10deg);
+  width: 40%;
+}
+
+.video-horizontal-card h3{
+  margin-bottom: 20px;;
+}
+
+.container-horizontal-cards iframe{
+  transform: skew(10deg);
+  width: 60%;
+  height: 23vw;
+  /*min-width: 640px;
+  min-height: 360px;*/
+  margin: 0px 20px;
+  border-radius: 20px;
+}
